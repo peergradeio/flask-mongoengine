@@ -4,6 +4,7 @@ include LICENSE
 include AUTHORS
 recursive-include flask_mongoengine/templates *.html
 recursive-include docs *
+recursive-exclude * __pycache__
 recursive-exclude * *.pyc
 recursive-exclude * *.pyo
 prune docs/_build
